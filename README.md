@@ -18,3 +18,6 @@ Developed a Python-based travel booking application inspired by MakeMyTrip, focu
  - Booking Confirmation: Displayed a detailed booking summary with all selections and final pricing. 
 
 Handled 5000+ booking records with 99% accuracy, reducing data processing time by 45%. Ensured a smooth and error-free booking experience, enhancing efficiency by 35%.
+![Ouput](https://github.com/user-attachments/assets/692db3b0-23ab-4ca7-ae58-ed2c6e5e2f5d)
+![Output](https://github.com/user-attachments/assets/1d7505f2-0350-4d2f-b4d4-d872fa63e524)
+
