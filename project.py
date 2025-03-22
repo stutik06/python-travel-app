@@ -5,18 +5,17 @@ Spyder Editor
 This is a temporary script file.
 """
 
-import numpy as  np
 import pandas as pd
-a = pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\PLACES.xlsx')
-b = pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\Tourist_cities.xlsx')
-c = pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\TRANSPORT.xlsx')
-d = pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\Uttarakhand.xlsx')
-e = pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\Rajasthan.xlsx')
-f = pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\Himachal.xlsx')
-g = pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\Punjab.xlsx')
-h = pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\Sikkim.xlsx')
-i= pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\Kerala.xlsx')
-j=pd.read_excel(r'C:\Users\HP\Desktop\IP\IP Project\payment.xlsx')
+a = pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\PLACES.xlsx')
+b = pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\Tourist_cities.xlsx')
+c = pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\TRANSPORT.xlsx')
+d = pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\Uttarakhand.xlsx')
+e = pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\Rajasthan.xlsx')
+f = pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\Himachal.xlsx')
+g = pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\Punjab.xlsx')
+h = pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\Sikkim.xlsx')
+i= pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\Kerala.xlsx')
+j=pd.read_excel(r'C:\Users\Asus\Desktop\Travel_App\payment.xlsx')
 
 df1=(a.set_index([pd.Index([1,2,3,4,5,6])]))
 df2=(b.set_index([pd.Index([1,2,3])]))
@@ -29,7 +28,7 @@ df8=(h.set_index([pd.Index([1,2,3])]))
 df9=(i.set_index([pd.Index([1,2,3])]))
 df10=(j.set_index([pd.Index([1,2,3,4])]))
 
-print("BEYOND BORDERS")
+print("MakeMyTrip Clone")
 Name=input("Enter your name:")
 No=int(input("Enter your number:"))
 print(df1)
